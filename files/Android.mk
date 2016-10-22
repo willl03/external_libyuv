@@ -46,6 +46,7 @@ LOCAL_SRC_FILES := \
     source/convert_jpeg.cc      \
     source/mjpeg_validate.cc
 
+LOCAL_CLANG := false
 common_CFLAGS := -Wall -fexceptions -DHAVE_JPEG
 LOCAL_CFLAGS += $(common_CFLAGS)
 LOCAL_SHARED_LIBRARIES := libjpeg
